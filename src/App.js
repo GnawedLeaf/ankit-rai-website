@@ -1,10 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
+import Homepage from './pages/HomePage/HomePageIndex';
 
 function App() {
   return (
     <>
-      <h1>I am ANKIT KUMAR RAI</h1>
+      <Homepage />
     </>
   );
 }
