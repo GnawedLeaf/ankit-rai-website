@@ -1,5 +1,6 @@
 import React from "react";
-import { HeroContainer, HeroTitle, PageContainer } from "./HomePageStyles";
+import { HeroContainer, HeroTitle, PageContainer, HeroSubtitle } from "./HomePageStyles";
+import Typewriter from 'typewriter-effect';
 
 
 const Homepage = () => {
@@ -7,8 +8,20 @@ const Homepage = () => {
   return (
     <PageContainer>
       <HeroContainer>
-        <HeroTitle>Ankit Kumar RAI</HeroTitle>
+        <HeroSubtitle>
+          <Typewriter
+            options={{
+              strings: ['Ankit Kumar'],
+              autoStart: true,
+              loop: true,
+              delay: 150,
+              pauseFor: 30000,
+            }}
+          /></HeroSubtitle>
+        <HeroTitle>RAI</HeroTitle>
+
       </HeroContainer>
+      hi bitch
     </PageContainer>
   )
 }
