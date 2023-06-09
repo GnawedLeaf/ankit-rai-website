@@ -11,14 +11,14 @@ const Homepage = () => {
         <HeroSubtitle>
           <Typewriter
             options={{
-              strings: ['Ankit Kumar'],
+              strings: ['Coder', 'Business Man', 'Handsome Fella', 'Gay'],
               autoStart: true,
               loop: true,
               delay: 150,
-              pauseFor: 30000,
+              pauseFor: 1000,
             }}
           /></HeroSubtitle>
-        <HeroTitle>RAI</HeroTitle>
+        <HeroTitle>Ankit Kumar RAI</HeroTitle>
 
       </HeroContainer>
       hi bitch
