@@ -6,6 +6,8 @@ background: #000818 ;
 width:100%;
 color:#f5f5f5;
 height:200vh;
+padding:0;
+margin:0;
 `
 
 export const HeroContainer = styled.div`
@@ -19,7 +21,7 @@ flex-direction: column;
 export const HeroSubtitle = styled.div`
 font-size:2.2vw;
 font-weight:300;
-letter-spacing:1rem;
+letter-spacing:0.8rem;
 text-align:center;
 @media only screen and (max-width: 750px){
   font-size:1.5rem;
